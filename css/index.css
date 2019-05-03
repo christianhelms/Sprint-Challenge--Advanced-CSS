@@ -1,3 +1,10 @@
+.set-width {
+  max-width: 100%;
+  width: 100%;
+}
+.make-big {
+  font-size: 4rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -165,14 +172,13 @@ p {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
-  width: 100%;
   background: #f4f4f4;
   border: 1px double #e0e0e0;
+  max-width: 100%;
+  width: 100%;
 }
 .top-bar h1 {
   font-size: 4rem;
-  padding-bottom: 5px;
 }
 .top-bar nav {
   display: flex;
@@ -193,6 +199,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 5px;
+  max-width: 100%;
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
@@ -235,6 +246,14 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: 1.5rem;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 25%;
 }
 .home .walk .walk-img {
   width: 46%;
