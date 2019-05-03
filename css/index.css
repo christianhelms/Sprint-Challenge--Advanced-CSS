@@ -183,6 +183,8 @@ p {
 .top-bar nav {
   display: flex;
   justify-content: space-evenly;
+  max-width: 100%;
+  width: 100%;
 }
 .top-bar a {
   text-decoration: none;
@@ -254,6 +256,10 @@ footer {
   color: white;
   padding: 5px;
   width: 25%;
+}
+.home .walk .walk-text .btn:hover {
+  color: black;
+  background-color: white;
 }
 .home .walk .walk-img {
   width: 46%;
