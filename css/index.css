@@ -192,6 +192,21 @@ p {
   color: black;
   padding: 2em;
 }
+@media only screen and (max-width: 500px) {
+  .top-bar .top-bar {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+    width: 100%;
+  }
+  .top-bar h1 {
+    text-align: center;
+  }
+  .top-bar a {
+    font-size: 1rem;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
