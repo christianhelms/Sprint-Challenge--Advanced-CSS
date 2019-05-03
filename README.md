@@ -51,7 +51,7 @@ My favorite concept in preprocessing is importing code to different pages. It's 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
-
+something khere
 Follow these steps to set up your project:
 
 ### Git Set up
